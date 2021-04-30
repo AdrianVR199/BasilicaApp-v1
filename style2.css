@@ -1,0 +1,133 @@
+*{
+
+    font-family: sans-serif;
+}
+.o-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+    font-family: sans-serif;
+    margin-top: -25px;
+    align-items: center;
+}
+.o-logo{
+
+    min-width: 20rem;
+    max-width: 20rem;
+    height: 100;
+
+}
+.o-nav-container{
+    display: flex;
+    justify-content: space-around;
+    font-family: sans-serif;
+    min-width: 20rem;
+}
+
+#o-search{
+
+    background: none;
+    border: 1.5px solid rgb(97, 42, 42);
+    border-radius: 0.4rem;
+    margin: 0.05rem;
+    height: 30px;
+    width: 400px;
+}
+#amount{
+
+    background: none;
+    border: 1.5px solid rgb(97, 42, 42);
+    border-radius: 0.4rem;
+    margin: 0.05rem;
+    height: 30px;
+    width: 70px;
+    text-align: center;
+}
+
+h1{
+
+    margin-bottom: 100px;
+}
+.o-link-container{
+    display: flex;
+    justify-content: space-around;
+    font-family: sans-serif;
+    min-width: 20rem;
+}
+
+.o-product{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+
+}
+
+.o-btn{
+    min-width: 9rem;
+    height: 2.5rem;
+    border: 1px solid rgb(97, 42, 42);
+    color: rgb(97, 42, 42);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.5rem;
+    margin: 0.05rem;
+    text-decoration: none;
+}
+
+.o-img1{
+
+    width: 30rem;
+    margin-right: 30px;
+    box-shadow: 0px 0px 11px #808080;
+
+}
+
+.o-searchbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.add{
+    margin-left: 5px;
+}
+
+.o-add{
+
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.o-reverse{
+
+    color: white;
+    background-color: rgb(97, 42, 42);
+}
+
+.o-images{
+
+    margin-left: 27rem;
+    margin-top: 1rem;
+}
+.o-img2{
+
+    width: 7rem;
+    margin: 5px;
+    box-shadow: 0px 0px 7px #808080;
+}
+
+.search{
+
+    width: 6rem;
+    min-width: 2rem;
+    height: 36px;
+    border-radius: 0.7rem;
+    
+}
